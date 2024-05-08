@@ -2,7 +2,6 @@
     "userspace_version": "1.0",
     "build_targets": [
         ["keyboardio/atreus", "evantravers"],
-        ["ortho_4x10", "evantravers"],
         ["preonic/rev3_drop", "evantravers"]
     ]
 }
