@@ -1,6 +1,4 @@
-/* Copyright 2015-2017 Jack Humbert
- * Modified by KeyPCB for the Fractal keyboard
- * Modified by @evantravers for preonic
+/* Copyright 2015-2021 Jack Humbert
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,6 +15,7 @@
  */
 
 #include QMK_KEYBOARD_H
+#include "muse.h"
 #include "evantravers.h"
 /* #include "rev3_drop.h" */
 
