@@ -21,6 +21,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 extern keymap_config_t keymap_config;
 
+const uint16_t PROGMEM apos_combo[] = {RALT_T(KC_L), RGUI_T(KC_SCLN), COMBO_END};
+const uint16_t PROGMEM hyper_combo[] = {LGUI_T(KC_A), RGUI_T(KC_SCLN), COMBO_END};
+const uint16_t PROGMEM esc_combo[] = {KC_Q, KC_W, COMBO_END};
+combo_t key_combos[] = {
+    COMBO(apos_combo, KC_QUOT),
+    COMBO(hyper_combo, KC_F19),
+    COMBO(esc_combo, KC_ESC),
+};
+
 #define LAYOUT_ortho_4x10_base( \
     K01, K02, K03, K04, K05, K06, K07, K08, K09, K0A, \
     K11, K12, K13, K14, K15, K16, K17, K18, K19, K1A, \
