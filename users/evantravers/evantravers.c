@@ -19,6 +19,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 uint32_t user_key_timer;
 
+const uint16_t PROGMEM apos_combo[] = {RALT_T(KC_L), RGUI_T(KC_SCLN), COMBO_END};
+const uint16_t PROGMEM hyper_combo[] = {LGUI_T(KC_A), RGUI_T(KC_SCLN), COMBO_END};
+const uint16_t PROGMEM esc_combo[] = {KC_Q, KC_W, COMBO_END};
+combo_t key_combos[] = {
+    COMBO(apos_combo, KC_QUOT),
+    COMBO(hyper_combo, KC_F19),
+    COMBO(esc_combo, KC_ESC),
+};
+
 tap_dance_action_t tap_dance_actions[] = {
   [TD_CTRL_ESC]    = ACTION_TAP_DANCE_DOUBLE(KC_LCTL, KC_ESC),
   [TD_TAB_ESC]     = ACTION_TAP_DANCE_DOUBLE(KC_TAB, KC_ESC),
