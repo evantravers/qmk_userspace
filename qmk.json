@@ -2,7 +2,6 @@
     "userspace_version": "1.0",
     "build_targets": [
         ["keyboardio/atreus", "evantravers"],
-        ["sporewoh/bancouver40", "evantravers"],
         ["preonic/rev3_drop", "evantravers"]
     ]
 }
