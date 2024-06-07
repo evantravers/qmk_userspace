@@ -1,5 +1,3 @@
-SRC += evantravers.c
-
 TAP_DANCE_ENABLE = yes
 
 ifeq ($(strip $(PROTOCOL)), VUSB)
