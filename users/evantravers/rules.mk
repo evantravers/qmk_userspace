@@ -16,3 +16,5 @@ COMMAND_ENABLE   = no  # Commands for debug and configuration
 MACROS_ENABLED   = no
 CAPS_WORD_ENABLE = yes
 COMBO_ENABLE     = yes
+
+INTROSPECTION_KEYMAP_C = evantravers.c

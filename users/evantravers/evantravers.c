@@ -28,7 +28,7 @@ tap_dance_action_t tap_dance_actions[] = {
   [TD_SPCRET]      = ACTION_TAP_DANCE_DOUBLE(KC_SPC, KC_ENT)
 };
 
-#ifdef COMBOS_ENABLE
+#if defined(COMBO_ENABLE)
 const uint16_t PROGMEM apos_combo[] = {RALT_T(KC_L), RGUI_T(KC_SCLN), COMBO_END};
 const uint16_t PROGMEM hyper_combo[] = {LGUI_T(KC_A), RGUI_T(KC_SCLN), COMBO_END};
 const uint16_t PROGMEM esc_combo[] = {KC_Q, KC_W, COMBO_END};
