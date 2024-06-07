@@ -28,6 +28,17 @@ tap_dance_action_t tap_dance_actions[] = {
   [TD_SPCRET]      = ACTION_TAP_DANCE_DOUBLE(KC_SPC, KC_ENT)
 };
 
+#ifdef COMBOS_ENABLE
+const uint16_t PROGMEM apos_combo[] = {RALT_T(KC_L), RGUI_T(KC_SCLN), COMBO_END};
+const uint16_t PROGMEM hyper_combo[] = {LGUI_T(KC_A), RGUI_T(KC_SCLN), COMBO_END};
+const uint16_t PROGMEM esc_combo[] = {KC_Q, KC_W, COMBO_END};
+combo_t key_combos[] = {
+    COMBO(apos_combo, KC_QUOT),
+    COMBO(hyper_combo, KC_F19),
+    COMBO(esc_combo, KC_ESC),
+};
+#endif
+
 #ifdef AUDIO_ENABLE
 float gaming[][2] = SONG(AG_SWAP_SOUND);
 float qwerty[][2] = SONG(UNICODE_LINUX);
@@ -74,4 +85,11 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
 layer_state_t layer_state_set_user(layer_state_t state) {
     return update_tri_layer_state(state, _SYMBL, _CNTRL, _ADJUST);
+}
+
+bool combo_should_trigger(uint16_t combo_index, combo_t *combo, uint16_t keycode, keyrecord_t *record) {
+    if (layer_state_is(_QWERTY)) {
+        return true;
+    }
+    return false;
 }
