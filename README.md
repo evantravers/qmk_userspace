@@ -13,3 +13,8 @@ Someday...
 
 - Combos in userspace
 - Shared keymaps across three boards
+
+## Related
+
+- Pretty much all the clever stuff came from other people or Drashna.
+- Previous history here: https://github.com/evantravers/qmk_firmware/commits/
