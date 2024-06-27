@@ -46,10 +46,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 [_QWERTY] = LAYOUT_preonic_2x2u_wrapper(
   ESC_F19, KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    TO(_GAMING),
-  TAB_SK,  _________________QWERTY_L1_________________, _________________QWERTY_R1_________________, KC_BSPC,
-  KC_LCTL, _________________QWERTY_L2_________________, _________________QWERTY_R2_________________, KC_QUOT,
-  KC_LSFT, _________________QWERTY_L3_________________, _________________QWERTY_R3_________________, SC_SENT,
-  KC_LCTL, KC_LGUI, SYMBL,  ESC_F19,           SYMBL,   CNTRL,            QUOTE_SK,CNTRL,   KC_RGUI, KC_RCTL
+  _________________QWERTY_L1_________________, _______, _______, _________________QWERTY_R1_________________,
+  _________________QWERTY_L2_________________, _______, _______, _________________QWERTY_R2_________________,
+  _________________QWERTY_L3_________________, _______, _______, _________________QWERTY_R3_________________,
+  _______,  _______, ______LH_THUMBS______, ______RH_THUMBS______, _______, _______
 ),
 
 [_SYMBL] = LAYOUT_preonic_2x2u_wrapper(
