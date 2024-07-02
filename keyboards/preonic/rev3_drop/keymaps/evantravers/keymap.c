@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_LCTL, KC_LGUI, SYMBL,   KC_LALT,          KC_SPC,  KC_TAB,           KC_ESC,  CNTRL,   KC_RGUI, KC_RCTL
 ),
 
-[_GAMING_SHORTCUTS] = LAYOUT_preonic_2x2u_wrapper(
+[_GAMING2] = LAYOUT_preonic_2x2u_wrapper(
   KC_CAPS, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10, _______,
   _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
   KC_PGUP, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
