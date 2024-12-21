@@ -52,7 +52,7 @@
 
 
 #define _________________CNTRL_L1__________________        ________________NUMBER_LEFT________________
-#define _________________CNTRL_L2__________________        _______, MS_WHLU, MS_UP,   MS_WHLD, _______
+#define _________________CNTRL_L2__________________        MS_WHLL, MS_WHLU, MS_UP,   MS_WHLD, MS_WHLR
 #define _________________CNTRL_L3__________________        _______, MS_LEFT, MS_DOWN, MS_RGHT, _______
 
 #define _________________CNTRL_R1__________________        ________________NUMBER_RIGHT_______________
