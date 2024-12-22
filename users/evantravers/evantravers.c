@@ -85,7 +85,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 }
 
 layer_state_t layer_state_set_user(layer_state_t state) {
-    return update_tri_layer_state(state, _SYMBL, _CNTRL, _ADJUST);
+    state = update_tri_layer_state(state, _SYMBL, _CNTRL, _MOUSE);
+    state = update_tri_layer_state(state, _SHORTCUTS, _CNTRL, _ADJUST);
+    return state;
 }
 
 bool combo_should_trigger(uint16_t combo_index, combo_t *combo, uint16_t keycode, keyrecord_t *record) {
