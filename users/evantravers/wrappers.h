@@ -51,7 +51,7 @@
 
 #define _MOUSE_1  MS_WHLL, MS_WHLU, MS_UP,   MS_WHLD, MS_WHLR
 #define _MOUSE_2  _______, MS_LEFT, MS_DOWN, MS_RGHT, _______
-#define _MOUSE_3  _______, MS_BTN1, MS_BTN2, MS_BTN3, _______
+#define _MOUSE_3  _______, MS_BTN1, MS_BTN2, MS_BTN3
 
 #define _________________CNTRL_L1__________________        ________________NUMBER_LEFT________________
 #define _________________CNTRL_L2__________________        _MOUSE_1
@@ -59,7 +59,7 @@
 
 #define _________________CNTRL_R1__________________        ________________NUMBER_RIGHT_______________
 #define _________________CNTRL_R2__________________        ______________ARROWS______________, _______
-#define _________________CNTRL_R3__________________        _MOUSE_3
+#define _________________CNTRL_R3__________________        _MOUSE_3, _______
 
 
 
