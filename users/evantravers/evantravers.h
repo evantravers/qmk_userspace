@@ -71,6 +71,7 @@ enum userspace_layers {
   _GAMING,
   _SYMBL,
   _CNTRL,
+  _MOUSE,
   _ADJUST,
   _SHORTCUTS,
   _GAMING2
