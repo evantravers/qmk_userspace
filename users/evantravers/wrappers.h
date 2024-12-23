@@ -63,13 +63,13 @@
 
 
 
-#define _________________ADJUST_L1_________________        QK_BOOT, DB_TOGG, RGB_TOG, RGB_MOD, RGB_HUI
+#define _________________ADJUST_L1_________________        _________________FUNC_LEFT_________________
 #define _________________ADJUST_L2_________________        ___________________BLANK___________________
-#define _________________ADJUST_L3_________________        _________________FUNC_LEFT_________________
+#define _________________ADJUST_L3_________________        QK_BOOT, DB_TOGG, RGB_TOG, RGB_MOD, RGB_HUI
 
-#define _________________ADJUST_R1_________________        RGB_HUD, RGB_SAI, RGB_SAD, RGB_VAI, RGB_VAD
+#define _________________ADJUST_R1_________________        _________________FUNC_RIGHT________________ // TODO: Prime real estate here.
 #define _________________ADJUST_R2_________________        _______, _______, _______, _______, _______ // TODO: Prime real estate here.
-#define _________________ADJUST_R3_________________        _________________FUNC_RIGHT________________ // TODO: Prime real estate here.
+#define _________________ADJUST_R3_________________        RGB_HUD, RGB_SAI, RGB_SAD, RGB_VAI, RGB_VAD
 
 
 
