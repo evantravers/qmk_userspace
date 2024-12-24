@@ -11,6 +11,13 @@ Someday...
 
 - Bancouver40 (for now, use my `qmk_firmware` branch as an override.)
 
+```bash
+nix shell nixpkgs#qmk
+qmk config user.overlay_dir="~/src/github.com/evantravers/qmk_firmware/"
+# you may need to qmk git-submodule in there
+qmk compile -kb sporewoh/bancounver40 -km evantravers
+```
+
 ## Features
 
 - Combos in userspace
