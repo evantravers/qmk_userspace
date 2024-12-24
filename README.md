@@ -9,7 +9,7 @@ More or less a mirror of my ZMK layout: https://github.com/evantravers/zmk-confi
 
 Someday...
 
-- Bancouver40
+- Bancouver40 (for now, use my `qmk_firmware` branch as an override.)
 
 ## Features
 
