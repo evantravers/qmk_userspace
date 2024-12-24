@@ -36,8 +36,6 @@ extern keymap_config_t keymap_config;
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
-  /* Should I take the outer thumb key and move it to pinky row for this? */
-
   [_QWERTY]    = LAYOUT_ortho_4x10_wrapper(
     _________________QWERTY_L1_________________, _________________QWERTY_R1_________________,
     _________________QWERTY_L2_________________, _________________QWERTY_R2_________________,
