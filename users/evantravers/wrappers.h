@@ -18,7 +18,7 @@
 
 #define ____LH_THUMBS_SYM____                              _______,    _______, _______
 #define ____RH_THUMBS_SYM____                              _______, _______, KC_DQUO
-#define ____LH_THUMBS_SHT____                              MUTE, _______, _______
+#define ____LH_THUMBS_SHT____                              MUTE, MO(NUDGE), _______
 #define ____RH_THUMBS_SHT____                              _______,    _______, _______
 
 #define ________________NUMBER_LEFT________________        KC_1,    KC_2,    KC_3,    KC_4,    KC_5
@@ -80,6 +80,10 @@
 #define _______________SHORTCUTS_R1________________        KC_BSPC, KC_7, KC_8, KC_9, PASS
 #define _______________SHORTCUTS_R2________________        KC_0,    KC_4, KC_5, KC_6, KC_TAB
 #define _______________SHORTCUTS_R3________________        _______, KC_1, KC_2, KC_3, KC_DOT
+
+#define _________________NUDGE_R1__________________        _______, _______, KC_UP,   _______,  _______
+#define _________________NUDGE_R2__________________        KC_LCTL, KC_LEFT, KC_DOWN, KC_RIGHT, _______
+#define _________________NUDGE_R3__________________        KC_LSFT, _______, _______, _______,  _______
 
 #define QEND_L1 TAB_SK
 #define QEND_L2 CTRL_ESC

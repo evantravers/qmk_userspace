@@ -73,6 +73,7 @@ enum userspace_layers {
   _CNTRL,
   _MOUSE,
   _SHORTCUTS,
+  _NUDGE,
   _GAMING2,
   _ADJUST
 };
