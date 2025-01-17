@@ -18,7 +18,7 @@
 
 #define ____LH_THUMBS_SYM____                              _______,    _______, _______
 #define ____RH_THUMBS_SYM____                              _______, _______, KC_DQUO
-#define ____LH_THUMBS_SHT____                              _______, MUTE, _______
+#define ____LH_THUMBS_SHT____                              MUTE, _______, _______
 #define ____RH_THUMBS_SHT____                              _______,    _______, _______
 
 #define ________________NUMBER_LEFT________________        KC_1,    KC_2,    KC_3,    KC_4,    KC_5
