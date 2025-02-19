@@ -18,7 +18,7 @@
 
 #define ____LH_THUMBS_SYM____                              _______,    _______, _______
 #define ____RH_THUMBS_SYM____                              _______, _______, KC_DQUO
-#define ____LH_THUMBS_SHT____                              MUTE, MO(_NUDGE), _______
+#define ____LH_THUMBS_SHT____                              KC_ENT, MUTE, _______
 #define ____RH_THUMBS_SHT____                              _______,    _______, _______
 
 #define ________________NUMBER_LEFT________________        KC_1,    KC_2,    KC_3,    KC_4,    KC_5
@@ -73,9 +73,9 @@
 
 
 
-#define _______________SHORTCUTS_L1________________        KC_1,     KC_2,   KC_3,   KC_4, KC_5 // Do I really use these numbers?
-#define _______________SHORTCUTS_L2________________        WIN_MUTE, SCRNST, ZOOMIN, TABN, HFWD
-#define _______________SHORTCUTS_L3________________        KC_SPC,   KC_ENT, ZOOMOUT,TABP, HBCK
+#define _______________SHORTCUTS_L1________________        KC_1,       KC_2,   KC_3,   KC_4, KC_5 // Do I really use these numbers?
+#define _______________SHORTCUTS_L2________________        WIN_MUTE,   SCRNST, ZOOMIN, TABN, HFWD
+#define _______________SHORTCUTS_L3________________        MO(_NUDGE), KC_ENT, ZOOMOUT,TABP, HBCK
 
 #define _______________SHORTCUTS_R1________________        KC_BSPC, KC_7, KC_8, KC_9, PASS
 #define _______________SHORTCUTS_R2________________        KC_0,    KC_4, KC_5, KC_6, KC_TAB
