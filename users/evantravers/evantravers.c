@@ -20,11 +20,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 uint32_t user_key_timer;
 
-enum my_keycodes {
- // apple globe key
- AP_GLOB = SAFE_RANGE,
-};
-
 tap_dance_action_t tap_dance_actions[] = {
   [TD_CTRL_ESC]    = ACTION_TAP_DANCE_DOUBLE(KC_LCTL, KC_ESC),
   [TD_TAB_ESC]     = ACTION_TAP_DANCE_DOUBLE(KC_TAB, KC_ESC),
