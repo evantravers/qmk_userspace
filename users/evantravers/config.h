@@ -6,6 +6,10 @@
 #  define TAPPING_TERM 100
 #endif
 
+#ifdef FLOW_TAP_TERM
+#  define FLOW_TAP_TERM 150
+#endif
+
 // miryoku style
 #define TAPPING_FORCE_HOLD
 
