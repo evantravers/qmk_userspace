@@ -16,6 +16,10 @@
 #define ______LH_THUMBS______                              ESC_F19, SYMBL, TAB_SK
 #define ______RH_THUMBS______                              ENT_SK, CNTRL, QUOTE_SK
 
+/* 3x5_2 style thumbs, like on the endgame. */
+#define ______LH_THUMBS_2____                              ESC_F19, TAB_SK, SYMBL
+#define ______RH_THUMBS_2____                              CNTRL, ENT_SK, QUOTE_SK
+
 #define ____LH_THUMBS_SYM____                              _______,    _______, _______
 #define ____RH_THUMBS_SYM____                              _______, _______, KC_DQUO
 #define ____LH_THUMBS_SHT____                              KC_ENT, MUTE, _______
