@@ -25,7 +25,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SYMBL     LT(_SYMBL, KC_BSPC)
 #define CNTRL     LT(_CNTRL, KC_SPC)
 #define SHORTCUTS MO(_SHORTCUTS)
-#define CTRL_ESC  TD(TD_CTRL_ESC)
 #define SPC_MUTE
 #define ENT_SK    LT(_SHORTCUTS, KC_ENT)
 #define TAB_SK    LT(_SHORTCUTS, KC_TAB)
@@ -41,9 +40,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SCRNST    TD(TD_SCRNST)
 #define PREV_NEXT TD(TD_PREV_NEXT)
 #define TAB_ESC   TD(TD_TAB_ESC)
-#define SPCRET    TD(TD_SPCRET)
 #define PASS      LGUI(KC_BSLS)
 #define MUTE      LSFT(LGUI(KC_M))
+#define DWN_MUTE  TD(TD_DWNMUTE)
 
 #define ALT_ESC   LALT_T(KC_ESC)
 #define ALT_ENT   RALT_T(KC_ENT)
@@ -53,12 +52,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RSHFT     RSFT_T(KC_COLON)
 
 enum userspace_tapdances {
-  TD_CTRL_ESC,
   TD_PREV_NEXT,
   TD_SCRNST,
   TD_MUTE,
   TD_TAB_ESC,
-  TD_SPCRET
+  TD_DWNMUTE,
 };
 
 enum userspace_custom_keycodes {

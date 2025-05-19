@@ -32,7 +32,7 @@
 #define _________________FUNC_LEFT_________________        KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5
 #define _________________FUNC_RIGHT________________        KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10
 #define ___________________BLANK___________________        _______, _______, _______, _______, _______
-#define ______________MUSIC_______________                 KC_MPLY, KC_VOLD, KC_VOLU, PREV_NEXT
+#define ______________MUSIC_______________                 KC_MPLY, DWN_MUTE, KC_VOLU, PREV_NEXT
 #define ______________ARROWS______________                 KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT
 
 
@@ -51,8 +51,8 @@
 #define _________________SYMBL_L2__________________        KC_HASH, KC_DLR,  KC_LPRN, KC_RPRN, KC_GRV
 #define _________________SYMBL_L3__________________        KC_PERC, KC_CIRC, KC_LBRC, KC_RBRC, KC_TILD
 
-#define _________________SYMBL_R1__________________        KC_CIRC, KC_UNDS, KC_PLUS, KC_SLSH, CW_TOGG
-#define _________________SYMBL_R2__________________        KC_DQUO,  KC_MINS, KC_EQL,  KC_ASTR, KC_COLN
+#define _________________SYMBL_R1__________________        KC_DQUO, KC_UNDS, KC_PLUS, KC_SLSH, CW_TOGG
+#define _________________SYMBL_R2__________________        KC_QUOT, KC_MINS, KC_EQL,  KC_ASTR, KC_COLN
 #define _________________SYMBL_R3__________________        KC_AMPR, KC_QUES, KC_LT,   KC_GT,   KC_BSLS
 
 #define _MOUSE_1  MS_WHLL, MS_WHLU, MS_UP,   MS_WHLD, MS_WHLR
@@ -81,18 +81,17 @@
 
 #define _______________SHORTCUTS_L1________________        KC_1,       KC_2,   KC_3,   KC_4, KC_5 // Do I really use these numbers?
 #define _______________SHORTCUTS_L2________________        WIN_MUTE,   SCRNST, ZOOMIN, TABN, HFWD
-#define _______________SHORTCUTS_L3________________        MO(_NUDGE), KC_SPC, ZOOMOUT,TABP, HBCK
+#define _______________SHORTCUTS_L3________________        TO(_NUDGE), KC_SPC, ZOOMOUT,TABP, HBCK
 
 #define _______________SHORTCUTS_R1________________        KC_BSPC, KC_7, KC_8, KC_9, PASS
 #define _______________SHORTCUTS_R2________________        KC_0,    KC_4, KC_5, KC_6, KC_TAB
 #define _______________SHORTCUTS_R3________________        _______, KC_1, KC_2, KC_3, KC_DOT
 
-#define _________________NUDGE_R1__________________        _______, _______, KC_UP,   _______,  _______
+#define _________________NUDGE_R1__________________        TO(_QWERTY), _______, KC_UP,   _______,  _______
 #define _________________NUDGE_R2__________________        KC_LCTL, KC_LEFT, KC_DOWN, KC_RIGHT, _______
 #define _________________NUDGE_R3__________________        KC_LSFT, _______, _______, _______,  _______
 
 #define QEND_L1 TAB_SK
-#define QEND_L2 CTRL_ESC
 #define QEND_L3 KC_LSFT
 
 #define QEND_R1 KC_BSPC
