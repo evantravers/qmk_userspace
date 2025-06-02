@@ -34,14 +34,12 @@ const uint16_t PROGMEM hyper_combo[] = {LGUI_T(KC_A), RGUI_T(KC_SCLN), COMBO_END
 const uint16_t PROGMEM esc_combo[] = {KC_Q, KC_W, COMBO_END};
 const uint16_t PROGMEM spc_combo[] = {KC_T, KC_G, COMBO_END};
 const uint16_t PROGMEM ret_combo[] = {KC_Z, KC_X, COMBO_END};
-const uint16_t PROGMEM adj_combo[] = {TAB_SK, ENT_SK, COMBO_END};
 combo_t key_combos[] = {
     COMBO(apos_combo, KC_QUOT),
     COMBO(hyper_combo, KC_F19),
     COMBO(esc_combo, KC_ESC),
     COMBO(spc_combo, KC_SPC),
     COMBO(ret_combo, KC_ENT),
-    COMBO(adj_combo, MO(_ADJUST)),
 };
 #endif
 
