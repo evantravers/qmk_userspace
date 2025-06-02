@@ -12,13 +12,9 @@
 #define LAYOUT_ortho_4x12_wrapper(...)       LAYOUT_ortho_4x12(__VA_ARGS__)
 #define LAYOUT_ortho_4x10_wrapper(...)       LAYOUT_ortho_4x10(__VA_ARGS__)
 
-
-#define ______LH_THUMBS______                              ESC_F19, SYMBL, TAB_SK
-#define ______RH_THUMBS______                              ENT_SK, CNTRL, QUOTE_SK
-
 /* 3x5_2 style thumbs, like on the endgame. */
-#define ______LH_THUMBS_2____                              ESC_F19, TAB_SK, SYMBL
-#define ______RH_THUMBS_2____                              CNTRL, ENT_SK, QUOTE_SK
+#define ______LH_THUMBS______                              ESC_F19, TAB_SK, SYMBL
+#define ______RH_THUMBS______                              CNTRL, ENT_SK, QUOTE_SK
 
 #define ____LH_THUMBS_SYM____                              _______,    _______, _______
 #define ____RH_THUMBS_SYM____                              _______, _______, KC_DQUO
