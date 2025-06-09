@@ -4,22 +4,11 @@ Using Github Actions to build firmware for my QMK boards:
 
 - Keyboardio Atreus
 - Preonic Rev 3 Drop
-
-More or less a mirror of my ZMK layout: https://github.com/evantravers/zmk-config
-
-Someday...
-
-- Bancouver40 (for now, use my `qmk_firmware` branch as an override.)
-
-```bash
-nix shell nixpkgs#qmk
-qmk config user.overlay_dir="~/src/github.com/evantravers/qmk_firmware/"
-# you may need to qmk git-submodule in there
-qmk compile -kb sporewoh/bancounver40 -km evantravers
-```
+- Sporewoh Bancouver40 (using my fork of qmk_firmware)
 
 ## Features
 
+- More or less a mirror of my ZMK layout: https://github.com/evantravers/zmk-config
 - Combos in userspace
 - Shared keymaps across three boards
 
