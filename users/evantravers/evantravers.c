@@ -32,7 +32,7 @@ tap_dance_action_t tap_dance_actions[] = {
 const uint16_t PROGMEM apos_combo[] = {RALT_T(KC_L), RGUI_T(KC_SCLN), COMBO_END};
 const uint16_t PROGMEM hyper_combo[] = {LGUI_T(KC_A), RGUI_T(KC_SCLN), COMBO_END};
 const uint16_t PROGMEM esc_combo[] = {KC_Q, KC_W, COMBO_END};
-const uint16_t PROGMEM spc_combo[] = {KC_T, KC_G, COMBO_END};
+const uint16_t PROGMEM spc_combo[] = {KC_E, LCTL_T(KC_D), COMBO_END};
 const uint16_t PROGMEM ret_combo[] = {KC_Z, KC_X, COMBO_END};
 combo_t key_combos[] = {
     COMBO(apos_combo, KC_QUOT),
