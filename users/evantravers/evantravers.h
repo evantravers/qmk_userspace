@@ -25,7 +25,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SYMBL     LT(_SYMBL, KC_BSPC)
 #define CNTRL     LT(_CNTRL, KC_SPC)
 #define SHORTCUTS MO(_SHORTCUTS)
-#define SPC_MUTE
 #define ENT_SK    LT(_SHORTCUTS, KC_ENT)
 #define TAB_SK    LT(_SHORTCUTS, KC_TAB)
 #define TAB_GSK    LT(_GAMING2, KC_TAB)
