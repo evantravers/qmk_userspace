@@ -7,6 +7,9 @@
 #define LAYOUT KEYMAP
 #endif
 
+#undef WIN_MUTE
+#define WIN_MUTE LGUI(KC_GRV)
+
 #define KEYMAP_wrapper(...)                  LAYOUT(__VA_ARGS__)
 #define LAYOUT_wrapper(...)                  LAYOUT(__VA_ARGS__)
 #define LAYOUT_ortho_4x12_wrapper(...)       LAYOUT_ortho_4x12(__VA_ARGS__)
@@ -20,7 +23,7 @@
 #define ____RH_THUMBS_SYM____                              _______, _______, KC_DQUO
 #define ____LH_THUMBS_SHT____                              KC_ENT, MUTE, _______
 #define ____RH_THUMBS_SHT____                              _______,    _______, _______
-#define ____LH_THUMBS_NDG____                              KC_LSFT, KC_SPC, KC_ENT
+#define ____LH_THUMBS_NDG____                              _______, _______, _______
 #define ____RH_THUMBS_NDG____                              _______, _______, _______
 
 #define ________________NUMBER_LEFT________________        KC_1,    KC_2,    KC_3,    KC_4,    KC_5
@@ -57,11 +60,11 @@
 
 #define _________________CNTRL_L1__________________        ________________NUMBER_LEFT________________
 #define _________________CNTRL_L2__________________        ___________________BLANK___________________
-#define _________________CNTRL_L3__________________        _______, _______, KC_HOME, KC_END, _______
+#define _________________CNTRL_L3__________________        _______, _______, _______, _______, KC_HOME
 
 #define _________________CNTRL_R1__________________        ________________NUMBER_RIGHT_______________
-#define _________________CNTRL_R2__________________        ______________ARROWS______________, _______
-#define _________________CNTRL_R3__________________        _______, ______________MUSIC_______________
+#define _________________CNTRL_R2__________________        ______________ARROWS______________, KC_F18
+#define _________________CNTRL_R3__________________        KC_END, ______________MUSIC_______________
 
 
 
@@ -77,11 +80,11 @@
 
 #define _______________SHORTCUTS_L1________________        KC_1,       KC_2,   KC_3,   KC_4, KC_5 // Do I really use these numbers?
 #define _______________SHORTCUTS_L2________________        WIN_MUTE,   SCRNST, ZOOMIN, TABN, HFWD
-#define _______________SHORTCUTS_L3________________        TO(_NUDGE), KC_SPC, ZOOMOUT,TABP, HBCK
+#define _______________SHORTCUTS_L3________________        TO(_NUDGE), _______, ZOOMOUT,TABP, HBCK
 
 #define _______________SHORTCUTS_R1________________        KC_BSPC, KC_7, KC_8, KC_9, PASS
 #define _______________SHORTCUTS_R2________________        KC_0,    KC_4, KC_5, KC_6, KC_TAB
-#define _______________SHORTCUTS_R3________________        _______, KC_1, KC_2, KC_3, KC_DOT
+#define _______________SHORTCUTS_R3________________        KC_DOT, KC_1, KC_2, KC_3, KC_DOT
 
 #define _________________NUDGE_R1__________________        TO(_QWERTY), _______, KC_UP,   _______,  _______
 #define _________________NUDGE_R2__________________        KC_LCTL, KC_LEFT, KC_DOWN, KC_RIGHT, _______

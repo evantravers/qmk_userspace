@@ -35,7 +35,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define TABP      LSFT(LGUI(KC_LBRC))
 #define HBCK      LGUI(KC_LBRC)
 #define HFWD      LGUI(KC_RBRC)
-#define WIN_MUTE  TD(TD_MUTE)
+#define WIN_MUTE  LGUI(KC_GRV)
 #define SCRNST    TD(TD_SCRNST)
 #define PREV_NEXT TD(TD_PREV_NEXT)
 #define TAB_ESC   TD(TD_TAB_ESC)
@@ -53,7 +53,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 enum userspace_tapdances {
   TD_PREV_NEXT,
   TD_SCRNST,
-  TD_MUTE,
   TD_TAB_ESC,
   TD_DWNMUTE,
 };
